@@ -1,0 +1,145 @@
+.meal_plans_model{
+   
+    position: relative;
+    
+}
+.meals_plan_hover{
+        visibility: hidden;
+    position: absolute;
+    width: 200px;
+    height: 350px;
+    top:15px;
+    
+    padding: 20px;
+    border-radius: 10px;
+    left: -100px;
+    z-index: 3;
+    
+    
+    
+    
+   
+
+
+}
+.meal_plans_model:hover .meals_plan_hover{
+    visibility: visible;
+}
+
+.meals_plan_hover>div>div{
+  
+ margin:20px 0px;
+
+}
+.meals_plan_hover>div{
+  
+    margin:10px 0px;
+     padding:10px ;
+   
+    border-radius: 20px;
+    width: 250px;
+    height: auto;
+      background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+   
+   }
+   .meals_plan_hover button{
+
+    width: 100%;
+    height: 40px;
+    border-radius:50px;
+    border: none;
+    background-color: white !important;
+   }
+   .meals_plan_hover button:hover{
+    background-color: lightgreen !important;
+   }
+   .meals_plan_hover a{
+
+      text-decoration: none;
+      
+     color: black;
+     width: 100%;
+     height: 100%;
+     
+   }
+   .link_to_prdt_page{
+    width: 100%;
+    height: 40px;
+    border-radius:50px;
+    border: none;
+    
+    border-radius:50px;
+    
+    border: 2px solid red;
+      display: block;
+      padding: 10px;
+      margin: 10px 0px;
+         box-sizing: border-box;
+    
+    text-align: center;
+
+     
+
+   }
+   .meals_plan_hover .link_to_prdt_page:hover{
+
+    background-color: rgb(7, 196, 7);
+      
+
+   }
+   .link_to_prdt_page:hover a{
+        
+      color: black;
+   }
+   
+   
+   
+   .arrowleft_shown{
+     
+       position: absolute;
+       top:3px
+   }
+   
+
+
+   .meals_plan_hover a{
+
+    text-decoration: none;
+    
+   color: black;
+   
+ }
+ .link_to_prdt_page{
+  width: 100%;
+  height: 40px;
+  border-radius:50px;
+  border: none;
+  
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   
+   
+
+ }
+ 
+ .meals_plan_hover .link_to_prdt_page:hover{
+
+  background-color: rgb(7, 196, 7);
+  color:  white;
+    
+
+ }
+ .link_to_prdt_page:hover a{
+      
+    color: white;
+ }
+ 
+ 
+ 
+ .arrowleft_shown{
+   
+     position: absolute;
+ }

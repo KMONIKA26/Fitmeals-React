@@ -1,0 +1,10 @@
+.blogList-wr{
+  
+    /* border: solid 2px black; */
+    width: 60%;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 700px 700px ;
+   margin-left: 150px;
+
+}

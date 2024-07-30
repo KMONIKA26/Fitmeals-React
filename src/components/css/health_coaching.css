@@ -1,0 +1,318 @@
+.hC_catIcon{
+    display: grid;
+    height:400px;
+    width:100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #8ec038;
+   
+    color:black;
+    
+}
+.hC_icon{
+    height:150px;
+    background-color: #8ec038;
+    margin-top: 60px;
+}
+.icon_img{
+    height:58%;
+    /* border: 1px solid red; */
+    margin:auto;
+    align-items: center;
+}
+.icon_img>img{
+    margin-top: 3%;
+   
+}
+.cat_nm{
+    height:33%;
+    margin:auto;
+    text-align: center;
+    
+    margin-top: 2%;
+    /* border: 1px solid red; */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.hC_appoint{
+    height:450px;
+    background-color: #f3f5ed;
+    /* border: 1px solid red; */
+}
+.icon_txtC h3{
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+.appBox{
+    display: grid;
+    height:420px;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid red; */
+}
+.txtAppoint{
+    width:500px;
+    margin:auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    /* border: 1px solid red; */
+    padding: 4%;
+    margin-left: 180px;
+}
+.headTxt{
+    font-family: 'Open Sans',sans-serif;
+    word-wrap: break-word;
+    font-size: 18px;
+    padding:2%;
+}
+.txt_headTxt{
+    color:#8ec038;
+}
+.subTxt{
+    margin-left:25px;
+    width:450px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2em;
+}
+.contactTxt{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 80px 400px;
+}
+.imgAppoint{
+    width:420px;
+    padding: 8%;
+    /* border: 1px solid red; */
+}
+.imgAppoint > img{
+    width:480px;
+    border-radius:25px;
+    margin:auto;
+    margin-top: 40px;
+}
+.hC_service{
+    padding: 4%;
+}
+.txtCalHead_service{
+    text-align: center;
+    /* border: 2px solid red; */
+    display: grid;
+    justify-content: center;
+}
+
+.txtCalHead_service p,h1{
+    
+    text-align: center;
+    
+    
+}
+.txtCalHead_service h1{
+  font-family: "Fira Sans", serif;
+    
+    
+}
+.ser_txt{
+    color: #8ec038;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Sacramento', cursive;
+    /* border: 1px solid red;
+    margin-bottom: -5px; */
+}
+.ser_txth1{
+    color:black;
+    font-family: "Fira Sans", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    margin-top: -30px;
+}
+.box_service{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:40px;
+}
+.serBox_3{
+    margin-left: 35px;
+    width:400px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    /* border: 1px solid red; */
+}
+.imgSer_Cir{
+    width:275px;
+    border-radius: 50%;
+    border:30px solid whitesmoke;
+    cursor: pointer;
+}
+.imgSer_Cir:hover{
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.txtSer_box{
+    width: 280px;
+    margin:auto;
+}
+.txtSer_box>p{
+    font-size: 14px;
+    text-align: center;
+}
+.button_RM{
+    height:35px;
+    width: 140px;
+    color:white;
+    background-color: #da2424;
+    border: 0px;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button_RM:hover{
+    background-color: #8ec038;
+    cursor: pointer;
+    transition: 0s, 0.3s, 0.3s;
+}
+.dw_workIcon{
+    background-color: #f3f4ec;
+    height: 360px;
+    margin-top: -45px; 
+}
+.headIcon_works{
+   
+    display: flex;
+    justify-content: center;
+  
+}
+.iconWrk_grid{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* border: 1px solid red; */
+    padding:8%;
+    margin-top: -120px;
+}
+.Work_gridCss{
+    /* border: 1px solid red; */
+    margin:auto;
+    /* margin-left: 45px; */
+}
+.img_IconWrk{
+    cursor: pointer;
+    transition: transform .7s ease-in-out;
+}
+.img_IconWrk:hover{
+    transform: rotateY(180deg);
+}
+.Work_line{
+    margin-top:50px;
+    width:50px;
+    height: 0.2px;
+    background-color:#e0e2da;
+    border: 1px solid #e0e2da;
+    margin:auto;
+}
+.txtWork_IconBx{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding:2%;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-size: 14px;
+    margin-top: -145px;
+    /* border: 1px solid red; */
+}
+.subTxt_Wrk{
+    margin: auto;
+    /* border: 1px solid red; */
+    width:280px;
+}
+.subTxt_Wrk h3{
+    font-size: 16px;
+    color:black;
+    margin-top:20px;
+}
+.subTxt_Wrk>p{
+    font-size: 14px;
+    text-align: center;
+}
+.hC_achiev{
+    height:35px;
+    background-color: #292d35;
+    padding: 6%;
+}
+.iconachiev_grid{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding:8%;
+}
+.achiev_gridCss{
+    margin:auto;
+    margin-top: -130px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #8ec038;
+}
+.achiev_line{
+    margin:auto;
+    margin-top:-80px;
+    width:90px;
+    height: 0.2px;
+    background-color:#e0e2da28;
+    border: 1px solid #e0e2da28;
+    margin-left: 40px;
+}
+.txtAch_IconBx{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding:2%;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-size: 12px;
+    margin-top: -145px;
+    /* border: 1px solid red; */
+}
+.subTxt_Ach h3{
+    margin: auto;
+    /* border: 1px solid red; */
+    width:280px;
+    color:white;
+    margin-top: -45px;
+    padding: 2%;
+    font-size: 16px;
+}
+.hC_gplayDet{
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.hC_appDet{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap:30px; */
+    margin: auto;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.imgApp_det{
+    width:800px;
+    margin-top: 5%;
+    /* border: 1px solid red; */
+}
+.sliderImg_app{
+    margin-left: -150px;
+}
+.imgFA{
+    border-radius: 25px;
+}
+.btmSlide{
+    width:420px;
+    margin-left: 20px;
+}

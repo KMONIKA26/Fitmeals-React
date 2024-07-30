@@ -1,0 +1,90 @@
+#meal_plan_full_part{
+   
+    
+    
+    position: relative;
+    
+    height: 800px;
+    background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2019/10/veg_pattern_01.png?id=10839");
+     display: flex;
+     background-color: rgb(136,184,54);
+     /* background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2019/10/nutrion-left.png");
+    background-repeat: no-repeat;
+     */
+     
+    border-radius: 20px;
+    
+}
+#meal_plan_full_part>div{
+    
+    
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+    
+  
+
+
+    
+}
+#meal_plan_full_part img{
+    
+    
+    
+    border-radius: 20px;
+    
+  
+
+
+    
+}
+.margin-auto{
+    margin: auto;
+}
+.display-flex{
+  
+}
+.hungry_yet_meal_plan{
+   
+    padding: 20px;
+}
+.hungry_yet_meal_plan>div{
+    
+    margin: 10px;
+}
+.button_meal_plan{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.button_meal_plan button{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+  
+    background-color: white;
+}
+.hungry_detailed_descr{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+   gap: 30px    ;
+  
+    
+}
+.hungry_detailed_descr button{
+  
+    position: absolute;
+    left: 10px;
+   
+
+    
+}
+.hungry_detailed_descr h2,p{
+   margin: 20px 0px;
+    text-align: left;
+}
+.second_part_descr{
+    position: relative;
+}

@@ -1,0 +1,18 @@
+.body{
+    width: 50%;
+    margin: auto;
+    margin-top: 8%;
+   
+    padding: 20px;
+}
+.input{
+    text-align: justify;
+    margin-bottom: 4%;
+    margin-top: 4%;
+
+}
+.input>input{
+    width: 45%;
+    height: 60px;
+    border-radius: 60px;
+}

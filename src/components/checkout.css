@@ -1,0 +1,244 @@
+.maindiv{
+    width: 100%;
+    height:auto !important;
+    
+   
+}
+.firstdiv{
+    width:100%;
+    height:380px;
+     position:fixed;
+     background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg");
+     background-size: 100% 100%;
+     z-index: -2;
+}
+.secdiv{
+    width: 100%;
+    height: 380px;
+    background-color: transparent;
+    margin-top: 0px !important;
+    position: relative;
+    padding-top: 0px !important;
+    display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+}
+.secdiv>h1{
+    margin: 0px;
+    color: #fff;
+    position: relative;
+    line-height: 1.15em;
+    font-size: 60px;
+    padding:15px;
+}
+.tirtydiv{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: white;
+}
+.returndiv{
+    width: 100%;
+    background-color: white !important;
+
+}
+.returndiv>div{
+    width: 50%;
+    background-color: #f7f6f7 !important;
+    font-weight: 300 !important;
+    margin-left: 25% !important;
+    border-radius: 30px !important;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+.returndiv>div:nth-child(2){
+    margin-top: 40px;
+}
+.billing{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+padding-top: 30px;
+}
+.billing>div{
+   height: auto;
+    }
+    .billing>div:nth-child(1){
+        width: 30%;
+        height: auto;
+         }
+         
+         .billing>div:nth-child(1)>h1{
+            text-align: left;
+             }
+         .billing>div:nth-child(2){
+            width: 35%;
+            height: auto;
+            margin-left: 30px;
+             }         
+
+             .Namediv{
+                 width: 100%;
+                 display: flex;
+                 justify-content: space-around;
+             }
+             .Namediv>p{
+               font-weight: bold;
+            }
+            .companydiv{
+                width: 100%;
+
+            }
+            .shipdiffre{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-top: 0px;
+                height: 40px;
+            }
+            .shipdiffre>input{
+                width: 14px;
+                
+            }
+            .shipdiffre>p{
+                font-weight: 700;
+                color: grey;
+            }
+            .eryju>p{
+                font-weight: 700;
+                color: grey;
+                margin-left: 25px;
+            }
+            .eryju>textarea{
+                width: 90%;
+                height: 125px;
+                border-radius: 40px;
+                font-size: 20px;
+                padding: 20px;
+            }
+            .purcaserdiv{
+                width: 100%;
+                height: auto !important;
+                padding-top: 60px;
+            }
+            .purcaserdiv>div{
+                width: 60%;
+                margin-left: 20%;
+                height: auto !important;
+                
+            }
+            .purcaserdiv>div>h1{
+                text-align: left;
+            }
+            .purcaserdiv>div>div{
+                width: 100%;
+                height: 80px;
+                background-color: darkslategray;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                display: flex;
+                margin-top: 20px;
+            }
+            .purcaserdiv>div>div>div{
+                width: 45%;
+                text-align: left;
+                padding-left: 5%;
+                font-size: 20px;
+                font-weight: 700;
+                margin-top: 25px;
+                color: white;
+            }
+           .newlyproduct{
+               width: 100%;
+               height: 80px !important ;
+               background-color: white;
+               display: flex;
+               margin-top: 0px !important;
+           }
+           .newlyproduct>div{
+            width: 50% !important;
+            height: auto;
+            margin-top: 0px !important;
+            background-color: white !important;
+            color: black !important;
+            border: solid 1px grey;
+            padding: 0px !important;
+            text-align: left !important;
+        }
+        .sumof{
+width: 60% !important;
+height:300px !important  ;
+background-color: white !important;
+margin-top: 0px !important;
+border-radius: 0px !important;
+display: block !important;
+margin-left: 42.5% !important;
+        }
+        .sumof>div{
+          display:flex !important;
+          width: 100% !important;
+                    }
+                    .sumof>div>div{
+                        border: solid black 1px;
+                        height: 80px;
+                        margin-top: -25px !important;
+                        color: black;
+                        text-align: center;
+                                  }
+                                  .sumof>div>div:nth-child(1){
+                                    width: 40% !important;
+                                    border: none !important;
+                                   
+                                   
+                                              }
+                                              .sumof>div>div:nth-child(1)>p{
+                                               text-align: right;
+                                               margin-right: 30px;
+                                               
+                                               
+                                                          }
+                                              .sumof>div>div:nth-child(2){
+                                                width: 50% !important;
+                                                
+                                                          }
+                                                          .sumof>div>div:nth-child(2)*{
+                                                            display: flex;
+                                                            text-align: center;
+                                                            align-items: center;
+                                                                      }
+                                                                      .finaltridiv{
+                                                                          width: 100% !important;
+                                                                          height:auto !important;
+                                                                      }
+                                                                      .finaltridiv>div{
+                                                                        width: 60%;
+                                                                        
+                                                                        margin-left: 20%;
+                                                                        height: auto !important;
+                                                                    }
+                                                                    .finaltridiv>div>div>input{
+                                                                        width: 15px;
+                                                                    }
+                                                                    .finaltridiv>div>div{
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        height: 30px !important;
+                                                                    }
+                                                                    .finaltridiv>div>div:nth-child(3){
+                                                                        display: flex;
+                                                                        align-items: center;
+                                                                        height: 50px !important;
+                                                                    }
+                                                                    .tygdfy{
+                                                                      margin-left: -750px;
+                                                                    }
+                                                                    .tygdfy:hover{
+                                                                        background-color: greenyellow;
+                                                                        cursor: pointer;
+
+                                                                      }

@@ -1,0 +1,232 @@
+.Slider>div{
+    width: 100%;
+    height: 200px;
+}
+
+.Slider>div>img{
+    width: 100%;
+    height:100%;
+}
+.Slider{
+    margin-left: 66px;
+    width:330px;
+    height:auto;
+    background-color: green;
+    margin-top: 0px;
+ 
+
+}
+
+.fj{
+   margin-top: 100px; 
+  
+   
+}
+
+.fj h6{
+     margin-top: 40px;
+     
+     margin-left:-120px ;
+     
+ }
+/* &>div:nth-child(1){
+    width:60%;
+    height:90px;
+    margin-left:60px;
+    background-color:black;
+    &>h6{
+    font-family: 'Sacramento', serif;
+    font-family: var(--font-subheaders),serif;
+    font-weight: 400;
+    font-size: 40px;
+    }
+} */
+
+.third{
+    width: 100%;
+    height:700px;
+    background-color: #8ec138;
+    display: flex;
+    justify-content: space-around;
+   
+    
+    
+}
+.third>div:nth-child(1){
+    width:25%;
+    height:100%;
+   
+    
+}
+.third>div:nth-child(1)>h2{
+    font-family:"Fira Sans" - 700 ;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 4rem;
+    color: green;
+    margin-top:200PX;
+}
+.third>div:nth-child(2){
+    width:70%;
+    height:100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+   
+  
+}
+.third>div:nth-child(2)>div{
+    height:70%;
+    width: 320px;
+    background-color: white;
+    margin-top: 110px;
+    border-radius: 25px;
+    text-align: center;
+  
+}
+.third>div:nth-child(2)>div p{
+   
+    text-align: center;
+   
+}
+.third>div:nth-child(2)>div:hover{
+   
+    margin-top: 104px;
+   
+}
+.third>div:nth-child(2)>div>div{
+   width: 80%;
+   margin-left: 10%;
+   justify-content: left;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-top: -20px;
+    
+}
+.third>div:nth-child(2)>div>div>p{
+    margin-left: 20px;
+    
+ }
+ .third>div:nth-child(2)>div>div>img{
+   height: 35px;
+   margin-top:10px;
+ }
+ .third>div:nth-child(2)>div>p:nth-child(1){
+    color: yellow;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 700;
+ }
+ .third>div:nth-child(2)>div>button{
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 65px;
+    width: 170px;
+    border-radius: 50px;
+    margin-top: 35px;
+    background-color: #da2424;
+    border-color: transparent;
+    
+ }
+ .third>div:nth-child(2)>div>button:hover{
+   background-color: darkblue;
+    transition-delay:2ms;
+ }
+
+
+
+.fourdiv{
+    width: 100%;
+    height: 400px;
+   background-color: white;
+    padding-top: 80px;
+    padding-bottom: 270px;
+   
+   
+    
+}
+.fourdiv>h6{
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    text-align:center;
+     margin-bottom: 20px;
+    font-style:italic;
+    color:#97c548;
+}
+
+.image-div{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.image-div>img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Slider1{
+    width:60%;
+    height:350px;
+    background-color: green;
+   margin: auto;
+}
+.fifthdiv{
+    width: 60%;
+    margin: auto;
+    height: 300px;
+   border: #8ec138 solid 3px;
+   border-radius: 20px;
+  
+ 
+   background-color: white;
+}
+.fifthdiv>img{
+   margin-top: 55px;
+   
+}
+
+.empspan{
+   
+   width: 100%;
+   height: 100px;
+   background-color: white;
+}
+.finder{
+    background-color: white;
+}
+.finalimage{
+width: 60%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+flex-wrap: wrap;
+background-color: white;
+grid-gap: 5px;
+}
+.finalimage>div{
+    width:300px;
+    height: autopx;
+    }
+    .finalimage>div>img{
+        max-width: 100%;
+        max-height: 100%;
+        
+        }
+
+        .kiop{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        
+
+        .Slider1>div>div>div>div{
+            
+            
+        }

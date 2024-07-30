@@ -1,0 +1,261 @@
+.hero-back {
+  height: 300px;
+  width: 100%;
+
+  background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/06/jennahazelphotography-brownie-bites-well-vegan-0627@2x-2.jpg");
+  background-repeat: no-repeat;
+
+  background-position: 50% 12%;
+  background-size: 100%;
+  margin-bottom: 0px;
+}
+
+.hero-back h1 {
+  font-family: "Fira Sans", serif;
+  font-size: 48px;
+
+  line-height: 55.2px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 130px 100px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  text-indent: 0px;
+  color: white;
+}
+
+.middle {
+  margin-top: 0px;
+  height: 570px;
+
+  background-color: rgb(179, 179, 179);
+}
+
+.middle h2 {
+  font-family: "Sacramento", "serif";
+  color: rgb(85, 88, 94);
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px 0px -8px;
+  padding: 0px;
+  padding-top: 50px;
+}
+
+.middle p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: rgb(41, 45, 53);
+  line-height: 28px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px padding 0px;
+  text-align: center;
+}
+
+.founders {
+  margin-top: 40px;
+
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.founders > div {
+  height: 100%;
+  width: 250px;
+
+  border-radius: 50%;
+  background-color: white;
+}
+
+.img-div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.bottom {
+  width: 80%;
+  margin: auto;
+  height: 500px;
+  background-color: rgb(243, 245, 237);
+
+}
+
+.bottom h2 {
+  font-family: "Fira Sans", serif;
+  font-size: 48px;
+  line-height: 62.4px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bottom p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px 0px 30px;
+  padding: 0px;
+  font-weight: 400;
+  margin-left: 50px;
+}
+
+.quotes {
+  border: 2px solid rgb(142, 192, 56);
+  height: 250px;
+  width: 98%;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+
+.fa-solid {
+  margin-top: 30px;
+  color: rgb(142, 192, 56);
+  margin-bottom: 30px;
+  margin: 0;
+}
+
+.quotes p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+
+  line-height: 36px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 400;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(41, 45, 53);
+  text-align: center;
+  text-indent: 0px;
+}
+
+.mid-divide {
+  display: flex;
+  margin-top: 110px;
+}
+.more {
+  width: 700px;
+  /* border: 1px solid blue; */
+  margin-top: 70px;
+  
+  
+}
+
+.ac {
+  /* border: 1px solid red; */
+  margin-left: 0px;
+  min-height: 1000px;
+  max-height: fit-content;
+}
+
+.iconsmore {
+  /* border: 1px solid black; */
+  width: 400px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.iconsmore > div {
+  display: flex;
+  /* border: 1px solid yellow; */
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.iconsmore h6 {
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+
+  line-height: 20.8px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 7px 0px 0px 15px;
+
+  font-weight: 800;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(41, 45, 53);
+  text-align: left;
+  text-indent: 0px;
+}
+
+.h3more {
+  font-family: "Fira Sans", serif;
+  font-size: 36px;
+  
+
+  line-height: 46.8px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(41, 45, 53);
+  text-align: start;
+  text-indent: 0px;
+  margin-left: 200px;
+}
+
+.more p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+
+  line-height: 28px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(41, 45, 53);
+  text-align: start;
+  text-indent: 0px;
+
+  color: #292d35;
+  color: rgb(41, 45, 53);
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0);
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 10px;
+}

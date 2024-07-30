@@ -1,0 +1,51 @@
+#totalbenefits_food_part{
+    
+    height: 930px;
+    padding-top: 50px;
+    overflow: hidden;
+    
+}
+#totalbenefits_food_part>div{
+    
+    border: none;
+    
+}
+
+.totalbenefits_food_part_content_flex{
+    display: flex;
+}
+.totalbenefits_food_part_content_flex img{
+    width: 150px;
+    border-radius: 50px;
+}
+.bg-whitesmoke{
+    background-color: whitesmoke;
+}
+.whychoose_fitmeals{
+    
+    margin-bottom: 20px;
+    
+}
+.whychoose_fitmeals>div{
+    margin: 20px;
+    border: none;
+}
+.spinner_of_body_image{
+    margin-top: 50px;    
+}
+
+.rotate:hover {
+    animation: rotation 8s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .spinner_of_body_image img{
+      border-radius: 470px;
+  }

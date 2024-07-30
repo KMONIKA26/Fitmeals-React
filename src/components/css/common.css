@@ -1,0 +1,42 @@
+.center_of_content{
+    
+    width: 80%;
+   
+   
+    margin: auto;
+   
+    
+}
+.flex{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+.common_button{
+    padding: 20px 44px;
+    line-height: 1.4em;
+    min-width: 200px;
+    font-size: 16px;
+    background-color: rgb(67, 66, 66);
+    color: white;
+    border-radius: 36px ;
+    outline: none;
+    border: none;
+}
+
+.color_green{
+    
+Color:
+#8ec038
+}
+.icon_size {
+    height: 40px;
+}
+.green_hover:hover{
+    color: green;
+}
+.static_green{
+    color: green;
+
+}

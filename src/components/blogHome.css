@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Open+Sans&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:&family=Sacramento&display=swap");
+
+.align {
+  /* border: 2px solid orange; */
+  display: flex;
+}
+
+.blogger-div {
+  width: 400px;
+  height: 500px;
+  /* border: 1px solid blueviolet; */
+  border-radius: 24px;
+  background-color: rgb(243, 245, 237);
+}
+.blogger-div img {
+  border-radius: 60%;
+
+  margin-top: 15px;
+}
+
+.blogger-div h6 {
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+
+  line-height: 23.4px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin-top: 10px;
+  padding: 0px;
+
+  font-weight: 800;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(41, 45, 53);
+  text-align: center;
+  text-indent: 0px;
+  margin-bottom: 0px;
+}
+
+.blogger-div span {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(142, 192, 56);
+  font-size: 14px;
+
+  line-height: 23.8px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin-top: 20px;
+  padding: 0px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(142, 192, 56);
+  text-align: center;
+  text-indent: 0px;
+}
+
+.blogger-div p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+
+  line-height: 23.8px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px 0px 10px;
+  padding: 0px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(41, 45, 53);
+  text-align: center;
+  text-indent: 0px;
+}
+
+.category {
+  width: 400px;
+  height: 100px;
+  
+  margin-top: 50px;
+}
+.category h3 {
+  font-family: "Fira Sans", serif;
+  font-size: 24px;
+
+  line-height: 28.8px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px 0px 25px;
+  padding: 0px 0px 10px;
+  margin-bottom: 0px;
+}
+
+.hr-green {
+  margin-top: 0px;
+  border: 0.5px solid rgb(142, 192, 56);
+}
+
+ul {
+  list-style: none;
+  margin-left: 0px;
+}
+.ul-div {
+  display: flex;
+  margin-left: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-left: 2px;
+
+  line-height: 19.6px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  padding: 12px 0px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(142, 192, 56);
+  text-align: left;
+  text-indent: 0px;
+}
+.right-arrow {
+  color: rgb(142, 192, 56);
+  margin-left: 0px;
+}
+
+.posts-div {
+  /* border: 1px solid blue; */
+  width: 400px;
+  height: 150px;
+  display: flex;
+}
+.post-div {
+  display: flex;
+}
+
+.post-div img {
+  width: 130px;
+  height: 130px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+
+.post-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-div h6 {
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  margin-top: 0px;
+  font-size: 18px;
+  margin-bottom: 0px;
+
+  line-height: 27px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  
+  padding: 0px;
+
+  font-weight:
+800;
+font-style:
+normal;
+font-variant:
+normal;
+text-transform:
+none;
+text-decoration:
+none solid rgb(142, 192, 56);
+text-align:
+left;
+text-indent:
+0px;
+}
+
+.calenderr {
+  color: rgb(142, 192, 61);
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+.comm {
+  color: rgb(142, 192, 61);
+  font-size: 14px;
+  margin-right: 5px;
+}
+.lastdi {
+  /* border: 1px solid rebeccapurple; */
+  height: 30px;
+  width: 250px;
+  margin-top: 0px;
+}
+
+.leftspan {
+  margin-left: 0px;
+}
+.post-div a {
+  color: rgb(142, 192, 56);
+  margin-bottom: 0px;
+  font-family: "Fira Sans", serif;
+  font-size: 15px;
+
+  line-height: 28px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+ 
+  padding: 0px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none solid rgb(142, 192, 56);
+  text-align: left;
+  text-indent: 0px;
+}
+
+button{
+  background-color: red;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 130px;
+  border-radius: 24px;
+  font-family:"Fira Sans", serif; 
+  
+  margin-left: 5px;
+}
+
+.recent-posts h3 {
+  font-family: "Fira Sans", serif;
+  font-size: 24px;
+
+  line-height: 28.8px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px 0px 25px;
+  padding: 0px 0px 10px;
+  margin-bottom: 0px;
+}
+.recent-posts hr{
+  margin-top: 0px;
+  border: 0.5px solid rgb(142, 192, 56);
+}
+.wrapper{
+  border: none;
+}

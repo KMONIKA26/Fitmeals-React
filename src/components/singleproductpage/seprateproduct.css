@@ -1,0 +1,283 @@
+.maindiv{
+
+width: 100%;
+height:auto;
+border: 1px solid white;
+
+
+
+
+}
+*button{
+cursor: pointer;
+}
+.naver{ 
+    background-color: aqua;
+}
+
+.firstdiv{
+    width:100%;
+    height:380px;
+     position:fixed;
+     background-size: 100% 100%;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+     z-index: -2;
+}
+
+.firstdiv>h1{
+    margin: 0;
+    color: #fff;
+    position: relative;
+    z-index: 11;
+    line-height: 1.15em;
+    font-size: 60px;
+    padding: 0 15px;
+
+}
+.seconddiv{
+    position:relative;
+    margin-top: 380px !important;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 100px !important;
+    display: flex;
+    justify-content: center;
+}
+.seconddiv>div{
+  width: 50%;
+}
+.seconddiv>div:nth-child(1)>img{
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 60px;
+    height: 90%;
+  }
+  .seconddiv>div:nth-child(1){
+    width: 45%;
+  }
+  .seconddiv>div:nth-child(2)>*{
+   text-align: left;
+   margin-top: 40px;
+   
+  }
+   .addtocartbutt{
+    margin-left: 10px;
+    background-color: crimson;
+    padding: 10px;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    width: 168px;
+   }
+   .addtocartbutt:hover{
+   background-color: yellowgreen;
+   cursor: pointer;
+   }
+  .seconddiv>div:nth-child(2)>*:nth-child(1){
+    margin-top: 0px;
+    color: crimson;
+    font-family: 'Fira Sans', serif;
+    font-family: var(--font-headers), serif;
+    font-weight: 700;
+    
+   }
+   .seconddiv>div:nth-child(2)>*:nth-child(2){
+    line-height: 1.8em;
+    font-size: 14px;
+    line-height: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main), sans-serif;
+    font-weight: 400;
+    width: 80%;
+   
+   }
+   .seconddiv>div:nth-child(2)>*:nth-child(3){
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 36px;
+   }
+   .seconddiv>div:nth-child(2)>*:nth-child(4)>*{
+  margin-top: 20px;
+
+   }
+   .seconddiv>div:nth-child(2)>*:nth-child(5){
+    font-size: 18px;
+    color: grey;
+    font-weight: 700;
+     }
+     .seconddiv>div:nth-child(2)>*:nth-child(8)>*:nth-child(1){
+        font-size: 18px;
+        font-weight: 700;
+        
+         }
+  .increaseProduct{
+width: 60px;
+height:40px;
+border-radius: 25px;
+padding-left: 20px;
+padding-right: 10px;
+text-align: center;
+border: solid 0.1px grey;
+  }
+
+  .thirddiv{
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding-top: 65px !important;
+     background-color: white;
+  }
+  .thirddiv>*:nth-child(1){
+    display: inline-block;
+    padding: 0.5em 0;
+    font-weight: 700;
+    color: #515151 !important;
+    text-decoration: none;
+    padding: 0px;
+}
+.thirddiv>*:nth-child(1)>*>*:nth-child(2){
+   margin-left: 20px;
+}
+.fourthdiv{
+    margin-top: 0px !important;
+    background-color: white;
+    width: 70%;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 38px;
+   
+}
+.fourthdiv>*:nth-child(1){
+    margin-top: 0px !important;
+    background-color: white;
+}
+
+.fourthdiv>*{
+    margin-top: 38px;
+}
+
+.fourthdiv>*:nth-child(2){
+    line-height: 1.8em;
+    font-size: 14px;
+    line-height: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main), sans-serif;
+    font-weight: 800;
+}
+.fourthdiv>*:nth-child(2){
+    line-height: 1.8em;
+    font-size: 14px;
+    line-height: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main), sans-serif;
+    font-weight: 800;
+}
+.fourthdiv>*:nth-child(3)>*{
+    margin-top: 10px;
+}
+.fourthdiv>*:nth-child(2){
+    margin-bottom: 38px;
+}
+
+.mainmedea{
+display: flex;
+justify-content: center;
+background-color: white;
+width: 100%;
+}
+.fifthdiver{
+    width: 100%;
+    height:auto;
+    margin-top: 0px !important;
+    background-color: white;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.fifthdiver>div{
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.fifthdiver>h2{
+    display: inline-block;
+    padding: 0.5em 0;
+    font-weight: 700;
+    color: #515151;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 40px;
+    
+}
+.fifthdiver>div>div{
+    height: auto;
+}
+.fifthdiver>div>div>div{
+   width: 100%;
+   height: 58%;
+  
+}
+.fifthdiver>div>div>div>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+ }
+ .fifthdiver>div>div>button{
+    margin-left: 10px;
+    background-color: crimson;
+    padding: 10px !important;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    width: 168px;
+ }
+ .fifthdiver>div>div>button:hover{
+   cursor: pointer;
+   background-color: yellowgreen;
+ }
+ .fifthdiver>div>div>h2:nth-child(3){
+color:crimson ;
+
+margin: 10px 0px;
+ }
+ .fifthdiver>div>div>*:nth-child(5){
+    font-size: 15px;
+    font-weight: bold;
+    color:yellowgreen;
+   
+    text-align: center;
+     }
+     
+    
+     .radio_check{
+         display: flex !important;
+         align-items: center;
+         justify-content: left;
+         height:30px;
+         margin-top: -16px !important;
+         margin-left: -16px !important;
+         
+     }
+     .radio_check>input{
+       width: 20px;
+        
+    }
+    .maya{
+display: flex;
+align-items: center;
+    }
+    .addtocartbutt{
+padding: 0;
+    }

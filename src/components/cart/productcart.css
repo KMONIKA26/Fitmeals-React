@@ -1,0 +1,333 @@
+.maindiv{
+    width: 100%;
+    height:auto !important;
+    
+   
+}
+.firstdiv{
+    width:100%;
+    height:380px;
+     position:fixed;
+     background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg");
+     background-size: 100% 100%;
+     z-index: -2;
+}
+.secdiv{
+    width: 100%;
+    height: 380px;
+    background-color: transparent;
+    margin-top: 0px !important;
+    position: relative;
+    padding-top: 0px !important;
+    display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+}
+.secdiv>h1{
+    margin: 0px;
+    color: #fff;
+    position: relative;
+    line-height: 1.15em;
+    font-size: 60px;
+    padding:15px;
+}
+.thirddiv{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+.thirddiv>div{
+  width: 60%;
+  height: auto ;
+  margin-top: 6%;
+}
+.thirddiv>div>div{
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 70px;
+  display: flex;
+background-color: darkslategray;
+  }
+  .thirddiv>div>div{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 70px;
+    display: flex;
+  background-color: darkslategray;
+    }
+    .thirddiv>div>div>div{
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+        }
+ .thirddiv>div>div>div:nth-child(1){
+    width: 50%;
+                }
+    .thirddiv>div>div>div:nth-child(2){
+    width: 12.666001%;
+    margin-left: 30px;
+      } 
+      .thirddiv>div>div>div:nth-child(3){
+        width: 12.666001%;
+       margin-left: 12px;
+          }
+          .thirddiv>div>div>div:nth-child(4){
+            width: 12.666001%;
+          
+              }                    
+
+.productsdiv{
+    width: 100%;
+    background-color: white !important;
+    color: black !important;
+    border-radius: 0px !important;
+    height:auto !important;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border-bottom: whitesmoke solid 2px;
+}
+.productsdiv>div{
+    color: black !important;  
+   height: 70px;
+   padding: 10px;
+    display: grid;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.productsdiv>div:nth-child(1){
+    width: 11.8% !important;
+    color: red !important;
+}               
+.productsdiv>div:nth-child(1):hover{
+   cursor: pointer;
+} 
+.productsdiv>div:nth-child(2){
+    width: 16.666% !important;
+}               
+
+.productsdiv>div:nth-child(2)>img{
+    width: 40%;
+}  
+
+.productsdiv>div:nth-child(3){
+    text-align: left !important;
+    line-height: 0px !important;
+    display: block !important;
+    width: auto !important;
+    width: 300px !important;
+}  
+
+.productsdiv>div:nth-child(4){
+  color: yellowgreen !important;
+    width: 16.666001% !important;
+}  
+
+.productsdiv>div:nth-child(5){
+    width: 16.666001% !important;
+}  
+
+.productsdiv>div:nth-child(6){
+    width: 16.666001% !important;
+}  
+
+.increaseProduct{
+    width: 60px;
+    height:40px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: center;
+    border: solid 0.1px grey;
+      }
+
+
+      .smaltext{
+          font-weight: 400;
+      }
+ .coupans{
+     width:70%;
+     height: 80px;
+     background-color: aqua;
+     border-radius: 0px !important;
+     background-color: white !important;
+     display: flex;
+     justify-content: left;
+ }
+ .coupans>input{
+width: 230px;
+height: 38px;
+border-radius: 30px;
+text-align: center;
+margin-left: 10px;
+border: solid 1px gainsboro;
+background-color: whitesmoke;
+margin-top: 12px;
+
+}      
+.coupans>button{
+    background-color: crimson;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    width: 168px;
+    height: 38px;
+    margin-left: -30px !important;
+    margin: auto;
+ }
+
+ .coupans>h4{
+   margin-right: 40px;
+ }
+ .coupans>h4:hover{
+    margin-right: 40px;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+  .finaldiv{
+    width:100% !important;
+    height: auto !important;
+    background-color: white !important;
+    border-radius: 0px !important;
+  }
+  .finaldiv>div{
+   width: 35% !important;
+   margin-left: 65% !important;
+   color: black !important;
+   display: block !important;
+  }
+  .finaldiv>div>div{
+    width: 100%;
+   height: 100px;
+    display: flex;
+    justify-content: left;
+    border: solid 1px gainsboro;
+    
+   }
+   .finaldiv>div>div>div:nth-child(1){
+    width: 30%;
+    text-align: left !important;
+    margin: auto !important;
+
+   }
+   .finaldiv>div>div>div:nth-child(2){
+margin: auto !important;
+width: 70% !important;
+border: solid 1px gainsboro;
+height: 100% !important;
+   }
+   
+   .texteditor>p:nth-child(1){
+font-size: 13px;
+text-align: right !important;
+margin-right: 10px !important;
+   }
+   .texteditor>:nth-child(2){
+    text-align: right !important;
+    margin-right: 10px !important;
+    
+       }
+       .texteditor>:nth-child(2)>span{
+        color: 
+        #61727f !important;
+        font-weight: 100;
+        
+           }
+       .opk{
+        text-align: right !important; 
+        margin-bottom: 9px !important;
+       }
+       .texteditor{
+        line-height: 0.1px !important;
+        
+    }
+       .finaldiv>div>div:nth-child(1)>:nth-child(2)>p{
+margin-top: 40px;
+text-align: right !important;
+           margin-right: 10px !important;
+           }
+           .finaldiv>div>div:nth-child(3)>:nth-child(2)>p{
+            margin-top: 40px !important;
+           text-align: right !important;
+           margin-right: 10px !important;
+                       }
+                       .butonj{
+                        background-color: crimson !important;
+                        color: white !important;
+                        font-weight: bold !important;
+                        font-size: 18px !important;
+                        border: none !important;
+                        border-radius: 30px !important;
+                        width: 310px !important;
+                        height: 54px !important;
+                        margin-top: 10px;
+                     }
+                     .butonj:hover{
+                  background-color:#2d3034 !important;
+                  cursor: pointer;
+                   }
+                     .finaldiv>div>div:nth-child(3)>:nth-child(1){
+                       text-align: center !important;
+                      
+                                 }
+                                 .finaldiv>div>div:nth-child(2)>:nth-child(1){
+                                  text-align: center !important;
+                                 
+                                            }
+                                            .finaldiv>div>div:nth-child(1)>:nth-child(1){
+                                              text-align: center !important;
+                                            
+                                                        }
+.prioty{
+color: black !important;
+}                                                        
+.hoir{
+  margin-top: 20px;
+  line-break: auto;
+}
+.ghut{
+  width: 150px !important;
+  padding: 0px !important;
+  height: 30px !important;
+}
+.ghut:hover{
+ cursor: pointer;
+}
+.tractor{
+display: flex;
+justify-content: center;
+align-items:flex-end;
+width: auto;
+border-bottom: greenyellow dotted 4px;
+width: 80%;
+margin-top: -10px;
+margin-left: 20px;
+
+}
+.tractor img{
+width: 20px;
+height: 25px;
+margin-left: 10px;
+  }
+  .emtydiv{
+width: 100%;
+background-color: #fff !important;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40PX;
+height: 400px !important;
+font-size: 100px;
+  }

@@ -1,0 +1,84 @@
+.FoodlifeStyletip_total{
+    margin-top: 50px;
+    
+    height: 450px;
+    display: flex;
+   
+
+
+}
+.FoodlifeStyletip_total>div{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none;
+   
+    
+}
+.FoodlifeStyletip_total_flex_part_1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+
+
+}
+
+
+
+.FoodlifeStyletip_total_flex_part_1>div{
+    flex: 1;
+    
+    
+    
+
+}
+.FoodlifeStyletip_total_flex_part_1>div img{
+    width: 250px;
+    height: 300px;
+    
+
+}
+.FoodlifeStyletip_total_flex_part_1>div:nth-child(1){
+    flex: 2;
+    
+    text-align: left;
+    font-size: 14px;
+    line-height: 2em;
+    font-weight: 400;
+    
+
+     
+
+}
+.FoodlifeStyletip_total_flex_part_1>div:nth-child(1)>div{
+    margin: 30px 10px;
+    
+
+     
+
+}
+.FoodlifeStyletip_total_flex_part_1>div:nth-child(1) h1{
+    line-height: 1.3em;
+
+     
+
+}
+.foodlife_readmore_button{
+    padding: 20px 44px;
+    line-height: 1.4em;
+    min-width: 200px;
+    font-size: 16px;
+    background-color: rgb(67, 66, 66);
+    color: white;
+    border-radius: 36px ;
+    outline: none;
+    border: none;
+}
+.food_details_benefits{
+  
+}
+.food_details_benefits>p{
+    margin: 30px 50px;
+}
