@@ -5,13 +5,6 @@ The objective of the project was to clone fitmeals in the given week time. My te
 
 ![Logo](https://www.fitmeals.co.in/wp-content/uploads/2019/06/logo-black.png)
 
-## Authors
-- [@Tanvi Samant]
-- [@Anjali Priya]
-- [@Naveen Shankar]
-- [@Sharique Anwer]
-- [@Smeet Kalamkar]
-- [@Magendran Anandhan]
 
 
 ## Techstack
